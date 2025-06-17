@@ -7,13 +7,13 @@ num=$2
 
 primary=(node-5 node-7 node-9 node-11 node-13)
 backup=(node-6 node-8 node-10 node-12 node-14)
-username=luoxh
-usergroup=rasl-PG0
+username=stzorba
+usergroup=lazylog-reprod-PG0
 
 pe="/users/$username/.ssh/id_rsa"
 data_dir=/data
 log_dir="$data_dir/logs"
-kafka_dir=/proj/rasl-PG0/$username/kafka
+kafka_dir=/proj/lazylog-reprod-PG0/$username/kafka
 zk_dir=$data_dir/zookeeper
 topic=default-topic
 

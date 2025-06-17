@@ -7,13 +7,13 @@ num=$2  # number of shards
 
 primary=(node-5 node-7 node-9 node-11 node-13)
 backup=(node-6 node-8 node-10 node-12 node-14)
-username=luoxh
-usergroup=rasl-PG0
+username=stzorba
+usergroup=lazylog-reprod-PG0
 
 pe="/users/$username/.ssh/id_rsa"
 data_dir=/data
 log_dir="$data_dir/logs"
-ll_dir=/proj/rasl-PG0/$username/LazyLog
+ll_dir=/proj/lazylog-reprod-PG0/$username/LazyLog
 
 # arg: node to ssh into
 get_ip() {
